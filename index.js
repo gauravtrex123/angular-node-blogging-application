@@ -17,7 +17,7 @@ mongoose.connect(config.uri, (err) => {
     }else{
         console.log('connected to the database:'+config.db);
     }
-});  
+});   
 
 var corsOptions = {
     origin: 'http://example.com',
